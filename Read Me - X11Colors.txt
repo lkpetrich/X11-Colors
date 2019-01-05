@@ -1,0 +1,20 @@
+About X11 Colors
+
+
+This application is for anyone who wants to use color names instead of numerical values in X-windows apps and web development. Names like "LightSeaGreen" rather than "#20B2AA" or "rgb(32,178,170)".
+
+You select a color by clicking on the color swatch on top, and it will sort the color list into order, from closest to farthest. You can select a color to copy out; the selection's name, red value, green value, blue value, combined hexadecimal value, and combine decimal value will appear just above the table. The separate red, green, and blue values are all decimal ones: 0 to 255. You can also sort the list with the color that you have selected.
+
+For its color names and values, X11 Colors uses file "rgb.txt" that came in an X-windows distribution.
+
+
+I have also included a Python/TK version in folder "Python-TK". To run it, run "ShowColors.py" on the command line. Files "X11Colors.py" and "rgb.txt" must be in the same directory. "X11Colors.py" reads and interprets "rgb.txt".
+
+ 
+All of my contributions I have released under the MIT License. You can do anything you want with it, as long as you give me credit for it and don't plagiarize it. I also don't make any legally binding guarantee that it is going to work.
+
+
+Written by
+Loren Petrich
+petrich@panix.com
+lpetrich at various online sites
